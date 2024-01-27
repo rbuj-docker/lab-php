@@ -1,7 +1,9 @@
 <?php
 
-$a = 'Test';
-$b = 1;
+$NEW_LINE = '<br/>';
 
-echo $a . '<br />';
-echo $b . '<br />';
+for ($a = 2, $b = 4; $a < 10; $a++)
+{
+  echo $a . " / ";
+  echo $b . $NEW_LINE;
+}
